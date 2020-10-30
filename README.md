@@ -1,14 +1,14 @@
 # @styiannis/data-structures
 
 [![Build Status](https://api.travis-ci.com/styiannis/data-structures-js.svg?branch=main)](https://travis-ci.com/styiannis/data-structures-js)
-[![Coverage Status](https://coveralls.io/repos/github/styiannis/data-structures-js/badge.svg?branch=main)](https://coveralls.io/github/styiannis/data-structures-js?branch=main)
-[![Libraries.io depndency status for GitHub repo](https://img.shields.io/librariesio/github/styiannis/data-structures-js)](#) <!--
-[![Inline docs](http://inch-ci.org/github/styiannis/data-structures-js.svg?branch=main)](http://inch-ci.org/github/styiannis/data-structures-js?branch=main)
--->[![Maintainability](https://api.codeclimate.com/v1/badges/a78549d1d9aace1d67d6/maintainability)](https://codeclimate.com/github/styiannis/data-structures-js/maintainability)
-[![npm (scoped)](https://img.shields.io/npm/v/@styiannis/data-structures)](https://www.npmjs.com/package/@styiannis/data-structures)
+[![Coverage Status](https://coveralls.io/repos/github/styiannis/data-structures-js/badge.svg?branch=main)](https://coveralls.io/github/styiannis/data-structures-js?branch=main)<!--
+[![Libraries.io depndency status for GitHub repo](https://img.shields.io/librariesio/github/styiannis/data-structures-js)](#)-->
+[![Known Vulnerabilities](https://snyk.io/test/github/styiannis/data-structures-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/styiannis/data-structures-js?targetFile=package.json) <!--[![Inline docs](http://inch-ci.org/github/styiannis/data-structures-js.svg?branch=main)](http://inch-ci.org/github/styiannis/data-structures-js?branch=main)-->
+[![Maintainability](https://api.codeclimate.com/v1/badges/a78549d1d9aace1d67d6/maintainability)](https://codeclimate.com/github/styiannis/data-structures-js/maintainability)
+[![npm (scoped)](https://img.shields.io/npm/v/@styiannis/data-structures)](https://www.npmjs.com/package/@styiannis/data-structures)<!--
 [![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/styiannis/data-structures-js/main)](https://github.com/styiannis/data-structures-js/releases)
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/styiannis/data-structures-js)](https://github.com/styiannis/data-structures-js/tags)
-[![GitHub](https://img.shields.io/github/license/styiannis/data-structures-js)](https://github.com/styiannis/data-structures-js/blob/main/LICENSE)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/styiannis/data-structures-js)](https://github.com/styiannis/data-structures-js/tags)-->
+[![GitHub](https://img.shields.io/github/license/styiannis/data-structures-js)](https://github.com/styiannis/data-structures-js/blob/main/LICENSE) 
 <!--![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/styiannis/data-structures-js)
 ![GitHub repo size](https://img.shields.io/github/repo-size/styiannis/data-structures-js)
 ![Lines of code](https://img.shields.io/tokei/lines/github/styiannis/data-structures-js)-->
@@ -38,6 +38,7 @@ $ npm install @styiannis/data-structures
 **Print data structures list**
 
 ```js
+
 const ds = require('@styiannis/data-structures');
 
 console.log( ds );
@@ -52,10 +53,12 @@ console.log( ds );
   'RightThreadedBinarySearchTree': [Function: RightThreadedBinarySearchTree],
   'ThreadedBinarySearchTree': [Function: ThreadedBinarySearchTree]
 }
+
 ```
 
 **Basic data structure usage**
 ```js
+
 const { RedBlackTree } = require('@styiannis/data-structures');
 
 // Create a Red-black tree

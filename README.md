@@ -5,7 +5,7 @@
 [![Libraries.io depndency status for GitHub repo](https://img.shields.io/librariesio/github/styiannis/data-structures-js)](#) <!--
 [![Inline docs](http://inch-ci.org/github/styiannis/data-structures-js.svg?branch=main)](http://inch-ci.org/github/styiannis/data-structures-js?branch=main)
 -->[![Maintainability](https://api.codeclimate.com/v1/badges/a78549d1d9aace1d67d6/maintainability)](https://codeclimate.com/github/styiannis/data-structures-js/maintainability)
-[![npm (scoped)](https://img.shields.io/npm/v/@styiannis/data-structures)](#)
+[![npm (scoped)](https://img.shields.io/npm/v/@styiannis/data-structures)](https://www.npmjs.com/package/@styiannis/data-structures)
 [![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/styiannis/data-structures-js/main)](https://github.com/styiannis/data-structures-js/releases)
 [![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/styiannis/data-structures-js)](https://github.com/styiannis/data-structures-js/tags)
 [![GitHub](https://img.shields.io/github/license/styiannis/data-structures-js)](https://github.com/styiannis/data-structures-js/blob/main/LICENSE)

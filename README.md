@@ -38,7 +38,6 @@ $ npm install @styiannis/data-structures
 **Print data structures list**
 
 ```js
-
 const ds = require('@styiannis/data-structures');
 
 console.log( ds );
@@ -53,12 +52,10 @@ console.log( ds );
   'RightThreadedBinarySearchTree': [Function: RightThreadedBinarySearchTree],
   'ThreadedBinarySearchTree': [Function: ThreadedBinarySearchTree]
 }
-
 ```
 
 **Basic data structure usage**
 ```js
-
 const { RedBlackTree } = require('@styiannis/data-structures');
 
 // Create a Red-black tree
@@ -77,7 +74,6 @@ console.log( rbt.has( 46 ) );  // Output: true
 
 // Remove item from tree
 console.log( rbt.delete( 75 ) );  // Output: true
-
 ```
 ## Documentation
 

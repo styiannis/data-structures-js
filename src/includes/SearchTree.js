@@ -73,7 +73,7 @@ export function SearchTree(instance, Iterator, ReverseIterator) {
 	 * Specifies an element with a <code>key</code> and a <code>value</code> 
 	 * to the structure object. In case there is already an element in the structure
 	 * with the specified <code>key</code>, the element <code>value</code> is updated.
-	 * 
+	 *
 	 * @example
 	 * const st = SearchTree(instance, Iterator, ReverseIterator);
 	 * 
@@ -98,7 +98,7 @@ export function SearchTree(instance, Iterator, ReverseIterator) {
 	/**
 	 * Returns the element associated with the specified key 
 	 * or <code>undefined</code> if the <code>key</code> can't be found in structure object.
-	 * 
+	 *
 	 * @example
 	 * const st = SearchTree(instance, Iterator, ReverseIterator);
 	 * 
@@ -125,7 +125,7 @@ export function SearchTree(instance, Iterator, ReverseIterator) {
 	 * Removes the specified element from the structure object defined
 	 * by <code>key</code>. Returns <code>false</code> when the
 	 * specified <code>key</code>  can't be found in structure object.
-	 * 
+	 *
 	 * @example
 	 * const st = SearchTree(instance, Iterator, ReverseIterator);
 	 * 
@@ -176,7 +176,7 @@ export function SearchTree(instance, Iterator, ReverseIterator) {
 	/**
 	 * Returns the element to the specified position of the 
 	 * in-order traversal of the elements of the structure objects.
-	 * 
+	 *
 	 * @example
 	 * const st = SearchTree(instance, Iterator, ReverseIterator);
 	 * 
@@ -253,7 +253,7 @@ export function SearchTree(instance, Iterator, ReverseIterator) {
 
 	/**
 	 * Removes all elements from the structure object.
-	 * 
+	 *
 	 * @example
 	 * const st = SearchTree(instance, Iterator, ReverseIterator);
 	 * 
@@ -276,18 +276,18 @@ export function SearchTree(instance, Iterator, ReverseIterator) {
 
 	/**
 	 * Indicates whether structure object is empty.
-	 * 
+	 *
 	 * @example
 	 * const st = SearchTree(instance, Iterator, ReverseIterator);
 	 * 
 	 * st.set( 1, 'blueberries' );
 	 * st.set( 3, 'mango' );
 	 *
-	 * console.log( st.isEmpty() );	// Output: false
+	 * console.log( st.isEmpty() ); // Output: false
 	 *
 	 * st.clear();
 	 *
-	 * console.log( st.isEmpty() );	// Output: true
+	 * console.log( st.isEmpty() ); // Output: true
 	 *
 	 *
 	 * @method isEmpty

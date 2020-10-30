@@ -14,10 +14,10 @@
   },
   "keywords": [
     "data structures",
-    "B-Tree",
-    "Red Black Tree",
-    "Binary Search Tree",
-    "Threaded Binary Search Tree"
+    "b-tree",
+    "red black tree",
+    "binary search tree",
+    "threaded binary search tree"
   ],
   "type": "commonjs",
   "main": "./dist/data-structures.js",

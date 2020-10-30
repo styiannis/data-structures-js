@@ -57,7 +57,7 @@ function imports(ds){
 	output += "import { " + ds.structure + " } from '@styiannis/data-structures');\n";
 	output += "\n// or\n\n";
 	output += "import " + ds.structure + " from '@styiannis/data-structures/src/" + ds.structure + "');\n";
-	output += "```\n";
+	output += "```\n\n";
 
 	return output;
 }

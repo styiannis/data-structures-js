@@ -1,0 +1,16 @@
+evrsion: "2"
+plugins:
+  eslint:
+    enabled: true
+    channel: "eslint-6"
+    config:
+      config: .eslintrc.js
+exclude_patterns:
+  - __tests__/
+  - benchmarks/
+  - config/
+  - dist/
+  - scripts/
+  - .eslintrc.js
+  - jest.config.js
+  - jsdoc.config.js

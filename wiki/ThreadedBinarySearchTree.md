@@ -33,6 +33,7 @@ import { ThreadedBinarySearchTree } from '@styiannis/data-structures');
 import ThreadedBinarySearchTree from '@styiannis/data-structures/src/ThreadedBinarySearchTree');
 ```
 
+
 ***
 
 ## Constructor
@@ -262,11 +263,11 @@ const tbst = ThreadedBinarySearchTree();
 tbst.set( 1, 'blueberries' );
 tbst.set( 3, 'mango' );
 
-console.log( tbst.isEmpty() );	// Output: false
+console.log( tbst.isEmpty() ); // Output: false
 
 tbst.clear();
 
-console.log( tbst.isEmpty() );	// Output: true
+console.log( tbst.isEmpty() ); // Output: true
 ```
 
 

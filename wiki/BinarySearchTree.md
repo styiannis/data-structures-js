@@ -33,6 +33,7 @@ import { BinarySearchTree } from '@styiannis/data-structures');
 import BinarySearchTree from '@styiannis/data-structures/src/BinarySearchTree');
 ```
 
+
 ***
 
 ## Constructor
@@ -262,11 +263,11 @@ const bst = BinarySearchTree();
 bst.set( 1, 'blueberries' );
 bst.set( 3, 'mango' );
 
-console.log( bst.isEmpty() );	// Output: false
+console.log( bst.isEmpty() ); // Output: false
 
 bst.clear();
 
-console.log( bst.isEmpty() );	// Output: true
+console.log( bst.isEmpty() ); // Output: true
 ```
 
 

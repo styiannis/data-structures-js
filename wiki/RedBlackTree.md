@@ -33,6 +33,7 @@ import { RedBlackTree } from '@styiannis/data-structures');
 import RedBlackTree from '@styiannis/data-structures/src/RedBlackTree');
 ```
 
+
 ***
 
 ## Constructor
@@ -262,11 +263,11 @@ const rbt = RedBlackTree();
 rbt.set( 1, 'blueberries' );
 rbt.set( 3, 'mango' );
 
-console.log( rbt.isEmpty() );	// Output: false
+console.log( rbt.isEmpty() ); // Output: false
 
 rbt.clear();
 
-console.log( rbt.isEmpty() );	// Output: true
+console.log( rbt.isEmpty() ); // Output: true
 ```
 
 

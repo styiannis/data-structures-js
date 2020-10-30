@@ -33,6 +33,7 @@ import { LeftThreadedBinarySearchTree } from '@styiannis/data-structures');
 import LeftThreadedBinarySearchTree from '@styiannis/data-structures/src/LeftThreadedBinarySearchTree');
 ```
 
+
 ***
 
 ## Constructor
@@ -262,11 +263,11 @@ const ltbst = LeftThreadedBinarySearchTree();
 ltbst.set( 1, 'blueberries' );
 ltbst.set( 3, 'mango' );
 
-console.log( ltbst.isEmpty() );	// Output: false
+console.log( ltbst.isEmpty() ); // Output: false
 
 ltbst.clear();
 
-console.log( ltbst.isEmpty() );	// Output: true
+console.log( ltbst.isEmpty() ); // Output: true
 ```
 
 

@@ -33,6 +33,7 @@ import { RightThreadedBinarySearchTree } from '@styiannis/data-structures');
 import RightThreadedBinarySearchTree from '@styiannis/data-structures/src/RightThreadedBinarySearchTree');
 ```
 
+
 ***
 
 ## Constructor
@@ -262,11 +263,11 @@ const rtbst = RightThreadedBinarySearchTree();
 rtbst.set( 1, 'blueberries' );
 rtbst.set( 3, 'mango' );
 
-console.log( rtbst.isEmpty() );	// Output: false
+console.log( rtbst.isEmpty() ); // Output: false
 
 rtbst.clear();
 
-console.log( rtbst.isEmpty() );	// Output: true
+console.log( rtbst.isEmpty() ); // Output: true
 ```
 
 

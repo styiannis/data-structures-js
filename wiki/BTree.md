@@ -33,6 +33,7 @@ import { BTree } from '@styiannis/data-structures');
 import BTree from '@styiannis/data-structures/src/BTree');
 ```
 
+
 ***
 
 ## Constructor
@@ -267,11 +268,11 @@ const bt = BTree();
 bt.set( 1, 'blueberries' );
 bt.set( 3, 'mango' );
 
-console.log( bt.isEmpty() );	// Output: false
+console.log( bt.isEmpty() ); // Output: false
 
 bt.clear();
 
-console.log( bt.isEmpty() );	// Output: true
+console.log( bt.isEmpty() ); // Output: true
 ```
 
 
